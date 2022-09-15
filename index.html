@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="login-container">
+        <header>
+            <div class="cabecera">
+                <h1 class="title">Tigers Camp Recruitment</h1>
+                <h3 class="subtitle">Let's be a Champion, Let's be a Tiger!</h3>
+            </div>
+        </header>
+
+        <section class="mainInfo">
+            <form class="inputs-container">
+                <div class="inp">
+                    <label for="fullN">Full Name</label><br>
+                    <input id="fullN" type="text" name="fullName" placeholder="Enter yor Full Name" required>
+                </div>
+                <div class="inp">
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" name="email" placeholder="Enter your email addres" required>
+                </div>
+                <div class="inp">
+                    <label for="pNumber">Tel</label><br>
+                    <input id="pNumber" type="number" name="phoneNumber" placeholder="Enter your phone" required>
+                </div>
+                <div class="inp">
+                    <div>
+                        <label>Gender</label><br>
+                        <input id="ML" type="radio" name="gender" value="Male">
+                        <label for="ML">Male</label><br>
+                        <input id="FM" type="radio" name="gender" value="Female">
+                        <label for="FM">Female</label><br>
+                    </div>
+                </div>
+                <div class="inp">
+                    <label for="ageGroup">Choose an Age Group</label>
+                    <select name="ageGroup" id="ageGroup">
+                        <option value="" selected>--Select--</option>
+                        <option value="YG">8-15</option>
+                        <option value="MT">18-30</option>
+                        <option value="OD">40+</option>
+                    </select>
+                </div>
+                <div class="comments">
+                    <label for="req">If you have any comments, please write them down</label>
+                    <br>
+                    <textarea name="requests" id="req" cols="40" rows="7" placeholder="Type something here"></textarea>
+                </div>
+                <div class="term">
+                    <input type="checkbox" name="terms" id="termsConditions">
+                    <label for="termsConditions">I accept terms and conditions</label>
+                </div>
+                <div class="futureS">
+                    <input type="checkbox" name="futureSurvey" id="survey" checked>
+                    <label for="survet">Allow to recieve more information and surveys</label>
+                </div>
+                <div class="boton">
+                    <button class="btn">Register</button>
+                </div>
+            </form>
+            <p class="or">or register with</p>
+            <div class="social-login">
+                <div class="social-login-element">
+                    <a class="media" href="#"><i class='bx bxl-google'></i></a>
+                </div>
+                <div class="social-login-element">
+                    <a class="media" href="#"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+                <div class="social-login-element">
+                    <a class="media" href="#"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="pie">
+                <p>Do yo have any questions? <a href="#">Please contact us</a></p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

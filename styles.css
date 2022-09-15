@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600;700&family=Roboto:wght@100;400&display=swap');
+
+/* Declarar variables*/
+:root {
+    --login-bg: #f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --img-bg: #eadbff;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://st2.depositphotos.com/3324587/6512/i/600/depositphotos_65127251-stock-photo-tiger-background.jpg);
+    margin: 0%;
+}
+
+header,
+footer {
+    width: 100%;
+    font-weight: 900;
+    margin: 0% auto;
+    color: white;
+    text-align: center;
+    background-image: url(https://besthqwallpapers.com/Uploads/24-8-2019/102740/thumb2-tiger-texture-4k-orange-black-background-tiger-skin-texture-black-orange-stripes.jpg);
+
+}
+
+.cabecera,
+.pie {
+    background: rgba(34, 34, 34, 0.25);
+}
+
+.title {
+    margin-bottom: 0%;
+}
+
+.subtitle {
+    margin-top: 10px;
+}
+
+.login-container {
+    font-family: perpetua;
+    height: 43.75em;
+    width: 30em;
+    margin: 1em auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    overflow: hidden;
+    background: rgba(34, 34, 34, 0.75);
+    color: rgb(255, 162, 96);
+}
+
+.social-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.social-login-element {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px !important;
+}
+
+.or {
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+}
+
+.btn {
+    font-family: perpetua;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.5s;
+    margin-top: 3px;
+}
+
+.btn:hover {
+    border-color: #f1ff5c;
+    cursor: pointer;
+    color: #f1ff5c;
+}
+
+.inp {
+    margin: 2px;
+}
+
+a {
+    color: white;
+}
+
+i {
+    color: #ffa260;
+    transition: all 0.5s;
+}
+
+i:hover {
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
